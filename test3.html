@@ -1,0 +1,10 @@
+<script type="text/javascript" src="lib/lockr/lockr.min.js"></script>
+<script type="text/javascript">
+Lockr.set('username', 'Coyote'); // Saved as string
+Lockr.set('user_id', 12345); // Saved as number
+Lockr.set('users', [{name: 'John Doe', age: 18}, {name: 'Jane Doe', age: 19}]);
+
+console.log(Lockr.get('username'))
+console.log(Lockr.get('user_id'))
+console.log(Lockr.get('users'))
+</script>
